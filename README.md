@@ -5,17 +5,9 @@ Analisis exoplanet NASA untuk mencari planet paling mirip Bumi menggunakan Earth
 
 This project analyzes exoplanets from NASA's Exoplanet Archive to find those that are most similar to Earth based on key features such as mass, radius, orbital period, and host star characteristics. It applies the **Earth Similarity Index (ESI)** formula, clusters the planets, and visualizes the most Earth-like candidates.
 
-## 📁 Project Structure
-├── exoplanet_notebook.ipynb # Main analysis notebook
-├── outputs/ # Contains all generated charts and tables
-│ ├── top10_planet.csv
-│ ├── top10_similarity_barplot.png
-│ ├── radar_chart_<planet>.png
-│ ├── full_similarity_result.csv
-│ ├── cleaned_data.csv
-│ └── pca_clustering.png
-└── README.md
-
+📁 Dataset
+The original dataset used in this project is provided by NASA Exoplanet Archive. Due to file size limitations on GitHub, you can download the dataset via the following Google Drive link: https://drive.google.com/drive/folders/1Fh0RZJCETTqP-P1uO3D5Degtg4BTju0d?usp=drive_link 
+Make sure the file is named data_planetnasa.csv after downloading so the notebook works correctly.
 
 ## 📊 Features Used
 
